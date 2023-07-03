@@ -1,0 +1,4 @@
+PAXB_swissprot	469.0
+PAXC_swissprot	549.0
+PAXM_swissprot	353.0
+PAXG_swissprot	363.0
