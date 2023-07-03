@@ -4,7 +4,7 @@
 
 One way to assess BGC novelty is to compare newly identified BGCs to known BGCs, both characterized and uncharacterized. 
 
-The ELF BGCs were input into BiG-SLiCE and compared to the 1.2 million BGCs in the BiG-FAM BGC database. The BiG-SLiCE Euclidean distances were converted to cosine vectors as performed in the Paoli et a., 2022[^1] that examined the novelty of BGCs from a global ocean microbiome. Various plots were prepared using a Jupter Notebook (`cosine_plots.ipynb` in the parent directory).
+The ELF BGCs were input into BiG-SLiCE and compared to the 1.2 million BGCs in the BiG-FAM BGC database. The BiG-SLiCE Euclidean distances were converted to cosine vectors as performed in the Paoli et a., 2022[^1] that examined the novelty of BGCs from a global ocean microbiome. Various plots were prepared using the Jupter Notebook, `cosine_plots.ipynb`.
 
 The steps to obtain to obtain the cosine novelty scores, the scripts were run in the following order:
 1. Run BiG-SLiCE using the `run_big-slice.sh` SLURM script. This took ~2.5 days to run due to the large number of comparisons required. This will output a large matrix file that needs to be split into smaller and more manageable sections.
