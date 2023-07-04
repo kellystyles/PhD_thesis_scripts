@@ -1,4 +1,4 @@
-# PhD Jupyter Notebooks
+# PhD scripts and notebooks
 
 This GitHub is the repository for all the figures generated for my PhD thesis discussing the genetics and secondary metabolism of endolichenic fungi (ELF) from New Zealand.
 Each chapter in my thesis has its own sub-directory, within which is contained one to two Jupyter Notebooks that will perform the data analyses and generate plots from the data.
