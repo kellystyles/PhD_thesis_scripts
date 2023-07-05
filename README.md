@@ -1,4 +1,4 @@
-# PhD Jupyter Notebooks
+# PhD scripts and notebooks
 
 This GitHub is the repository for all the figures generated for my PhD thesis discussing the genetics and secondary metabolism of endolichenic fungi (ELF) from New Zealand.
 Each chapter in my thesis has its own sub-directory, within which is contained one to two Jupyter Notebooks that will perform the data analyses and generate plots from the data.
@@ -36,7 +36,7 @@ To open these Notebooks, I would recommend using Anaconda Navigator to install t
 This chapter discusses the breadth of the lichen collection surveyed, as well as the ELF isolated from some of these lichens. Several statistical tests (Pearson's Chi-Squared Mean) are performed in an attempt to link the observation of ELF taxa to lichen taxa, form, and macroclimatic factors.
 
 How to run:
-1. `lichen_plots.ipynb` will prepare descriptive plots of the lichen and ELF dataset using both seaborn[^Waskom,2021] and plotly[^PlotlyTechnologiesInc., 2015], by parsing data from the `ELF_master_results.csv` file.
+1. `lichen_plots.ipynb` will prepare descriptive plots of the lichen and ELF dataset using both seaborn[^Waskom,2021] and plotly[^PlotlyTechnologiesInc.,2015], by parsing data from the `ELF_master_results.csv` file.
 2. `statistical_tests.ipynb` will perform the statistical analyses found in this chapter. The lichen and ELF dataset, from `ELF_master_results.csv`, are parsed and data manipulated to perform Pearson's Chi-Squared tests using the scipy[^Virtanenetal.,2020] package. An abundance table is also prepared from the taxonomy data, from which rarefaction curves can be prepared using [iNEXT Online](https://chao.shinyapps.io/iNEXTOnline/).
 
 ### Chapter 4 - ELF assembly metrics
