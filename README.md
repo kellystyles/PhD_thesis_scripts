@@ -57,7 +57,7 @@ Chapter 5 discusses the diversity and novelty of ELF bisoynthetic gene clusters 
 
 How to run:
 1. Run [BGC_data_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/BGC_data_plots.ipynb) to prepare descriptive plots of BGCs from the ELF, parsed from `ELF_all_bgcs.csv`.
-2. Run [cosine_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/cosine_plots.ipynb) to generate plots that assess the novelty of ELF BGCs from the BiG-SLiCE data prepared by the cosine analysis scripts (*does not perform the actual cosine analysis*).
+2. Run [cosine_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/cosine_analysis_scripts/cosine_plots.ipynb) to generate plots that assess the novelty of ELF BGCs from the BiG-SLiCE data prepared by the cosine analysis scripts (*does not perform the actual cosine analysis*).
 3. [bioassay_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/bioassay_plots.ipynb) generates plots of preliminary bioassay data from the crude extracts of several ELF. It uses the statannotations[^Charlieretal.,2022] and scipy[^Virtanenetal.,2020] packages to determine the statistical significance of various ELF to the negative control.
 
 ### Chapter 6 - targeted BGC identification
