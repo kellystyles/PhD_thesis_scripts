@@ -18,7 +18,8 @@ The Notebooks in this repository use Python 3.9. Aside from standard Python libr
 | statannotations | 0.5 | Charlier et al., 2022[^Charlieretal.,2022] |
 | pyhmmer | 0.7.1 | Larralde & Zeller, 2023[^Larralde&Zeller,2023] |
 
-To run these Notebooks, use the interactive Binder environment [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts.git/HEAD)
+To run these Notebooks, use the interactive Binder environment [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts.git/HEAD)[^Binder]
+
 Alternatively, I would recommend using Anaconda Navigator to install the dependencies and Jupyter Notebook, then clone this GitHub repo to obtain the Notebooks and data.
 [^McKinney,2010]: McKinney, W. (2010). Data structures for statistical computing in python. Proceedings of the 9th Python in Science Conference
 [^Waskom,2021]: Waskom, M. L. (2021). Seaborn: statistical data visualization. Journal of Open Source Software, 6(60), 3021. 
@@ -29,6 +30,7 @@ Alternatively, I would recommend using Anaconda Navigator to install the depende
 [^Nothman,2018]: Nothman, J. (2018). UpSetPlot. In. https://github.com/jnothman/UpSetPlot.
 [^Charlieretal.,2022]: Charlier, F., Weber, M., Izak, D., Harkin, E., Magnus, M., Lalli, J., Fresnais, L., Chan, M., Markov, N., & Amsalem, O. (2022). trevismd/statannotations: v0. 5. Zenodo10, 5281. 
 [^Larralde&Zeller,2023]: Larralde, M., & Zeller, G. (2023). PyHMMER: a Python library binding to HMMER for efficient sequence analysis. Bioinformatics, 39(5). https://doi.org/10.1093/bioinformatics/btad214
+[^Binder]: Jupyter et al., "Binder 2.0 - Reproducible, Interactive, Sharable Environments for Science at Scale." Proceedings of the 17th Python in Science Conference. 2018. doi://10.25080/Majora-4af1f417-011
 
 ## Overview of each Chapter
 
