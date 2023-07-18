@@ -1,0 +1,10 @@
+ipywidgets==8.0.7
+upsetplot==0.8.0
+plotly==5.13.1
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.2.1
+seaborn==0.11.2
+statannotations==0.5
+pyhmmer==0.7.1
+watermark==1.6.1
