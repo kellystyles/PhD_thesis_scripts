@@ -18,7 +18,7 @@ The Notebooks in this repository use Python 3.9. Aside from standard Python libr
 | statannotations | 0.5 | Charlier et al., 2022[^Charlieretal.,2022] |
 | pyhmmer | 0.7.1 | Larralde & Zeller, 2023[^Larralde&Zeller,2023] |
 
-To run these Notebooks, use the interactive Binder environment [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts.git/HEAD)[^Binder]
+To run these Notebooks, use the interactive Binder environment [![Kelly Styles PhD Thesis - Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts.git/HEAD)[^Binder]
 
 Alternatively, I would recommend using Anaconda Navigator to install the dependencies and Jupyter Notebook, then clone this GitHub repo to obtain the Notebooks and data.
 [^McKinney,2010]: McKinney, W. (2010). Data structures for statistical computing in python. Proceedings of the 9th Python in Science Conference
