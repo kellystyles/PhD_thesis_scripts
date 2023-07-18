@@ -36,17 +36,17 @@ To open these Notebooks, I would recommend using Anaconda Navigator to install t
 This chapter discusses the breadth of the lichen collection surveyed, as well as the ELF isolated from some of these lichens. Several statistical tests (Pearson's Chi-Squared Mean) are performed in an attempt to link the observation of ELF taxa to lichen taxa, form, and macroclimatic factors.
 
 How to run:
-1. `lichen_plots.ipynb` will prepare descriptive plots of the lichen and ELF dataset using both seaborn[^Waskom,2021] and plotly[^PlotlyTechnologiesInc.,2015], by parsing data from the `ELF_master_results.csv` file.
-2. `statistical_tests.ipynb` will perform the statistical analyses found in this chapter. The lichen and ELF dataset, from `ELF_master_results.csv`, are parsed and data manipulated to perform Pearson's Chi-Squared tests using the scipy[^Virtanenetal.,2020] package. An abundance table is also prepared from the taxonomy data, from which rarefaction curves can be prepared using [iNEXT Online](https://chao.shinyapps.io/iNEXTOnline/).
+1. [lichen_plots.ipynb](Chapter_3_endolichenic_fungi_isolation/lichen_plots.ipynb) will prepare descriptive plots of the lichen and ELF dataset using both seaborn[^Waskom,2021] and plotly[^PlotlyTechnologiesInc.,2015], by parsing data from the `ELF_master_results.csv` file.
+2. [statistical_tests.ipynb](Chapter_3_endolichenic_fungi_isolation/statistical_tests.ipynb) will perform the statistical analyses found in this chapter. The lichen and ELF dataset, from `ELF_master_results.csv`, are parsed and data manipulated to perform Pearson's Chi-Squared tests using the scipy[^Virtanenetal.,2020] package. An abundance table is also prepared from the taxonomy data, from which rarefaction curves can be prepared using [iNEXT Online](https://chao.shinyapps.io/iNEXTOnline/).
 
 ### Chapter 4 - ELF assembly metrics
 
 In this chapter, aspects of the [Fungiflow](https://github.com/kellystyles/fungiflow) pipeline are examined. Test results of the pipeline against several datasets are inspected and the ELF assembly quality are examined. Aspects of ELF assembly metrics and quality are plotted and discussed. Finally, comparative phylogenomics of the ELF is performed and plots prepared.
 
 How to run:
-1. `pipeline_tests.ipynb` will prepare plots of the results of the Fungiflow pipeline tests against taxonomically diverse synthetic genomes. Data is parsed from `chapter_4_fungiflow_workflow/master_results.csv`.
-2. Assembly metrics from `ELF_master_results.csv` are plotted and compared using `ELF_data.ipynb`. It then continues and plots the estimated and actual coverages of the two short read Illumina sequencing runs. It finishes with a Prinicipal Components Analysis of various assembly metrics to identify correlated metrics, using two separate PCA methods (prince[^Halford,2022] and sklearn[^Pedregosaetal.,2011]).
-3. Comparative phylogenomics are performed from the output CSV files of `funannotate compare`[^Palmeretal.,2021] using the `comparative_phylogenomics/comparative_phylogenomics.ipynb` Jupyter Notebook. This parses each of the relevant summary CSV files from `funannotate compare` and generates a number of bar plots and clustered heatmaps.
+1. [pipeline_tests.ipynb](Chapter_4_fungiflow_workflow/pipeline_tests.ipynb) will prepare plots of the results of the Fungiflow pipeline tests against taxonomically diverse synthetic genomes. Data is parsed from `chapter_4_fungiflow_workflow/master_results.csv`.
+2. Assembly metrics from `ELF_master_results.csv` are plotted and compared using [ELF_data.ipynb](Chapter_4_fungiflow_workflow/ELF_data.ipynb). It then continues and plots the estimated and actual coverages of the two short read Illumina sequencing runs. It finishes with a Prinicipal Components Analysis of various assembly metrics to identify correlated metrics, using two separate PCA methods (prince[^Halford,2022] and sklearn[^Pedregosaetal.,2011]).
+3. Comparative phylogenomics are performed from the output CSV files of `funannotate compare`[^Palmeretal.,2021] using the [comparative_phylogenomics.ipynb](Chapter_4_fungiflow_workflow/comparative_phylogenomics/comparative_phylogenomics.ipynb) Jupyter Notebook. This parses each of the relevant summary CSV files from `funannotate compare` and generates a number of bar plots and clustered heatmaps.
 
 [^Palmeretal.,2021]: Palmer, J., & Stajich, J. (2021). Funannotate v1. 8.3: eukaryotic genome annotation (Version 1.8. 3). Zenodo. doi, 10. 
 
@@ -56,9 +56,9 @@ Chapter 5 discusses the diversity and novelty of ELF bisoynthetic gene clusters 
 *Note that the cosine analysis of BiG-SLiCE data is only represented by the scripts used, as the data is too large (38.9 GB) to be uploaded here and takes several days to process.*
 
 How to run:
-1. Run `BGC_dataplots.ipynb` to prepare descriptive plots of BGCs from the ELF, parsed from `ELF_all_bgcs.csv`.
-2. Run `cosine_plots.ipynb` to generate plots that assess the novelty of ELF BGCs from the BiG-SLiCE data prepared by the cosine analysis scripts (*does not perform the actual cosine analysis*).
-3. `bioassay_plots.ipynb` generates plots of preliminary bioassay data from the crude extracts of several ELF. It uses the statannotations[^Charlieretal.,2022] and scipy[^Virtanenetal.,2020] packages to determine the statistical significance of various ELF to the negative control.
+1. Run [BGC_data_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/BGC_data_plots.ipynb) to prepare descriptive plots of BGCs from the ELF, parsed from `ELF_all_bgcs.csv`.
+2. Run [cosine_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/cosine_plots.ipynb) to generate plots that assess the novelty of ELF BGCs from the BiG-SLiCE data prepared by the cosine analysis scripts (*does not perform the actual cosine analysis*).
+3. [bioassay_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/bioassay_plots.ipynb) generates plots of preliminary bioassay data from the crude extracts of several ELF. It uses the statannotations[^Charlieretal.,2022] and scipy[^Virtanenetal.,2020] packages to determine the statistical significance of various ELF to the negative control.
 
 ### Chapter 6 - targeted BGC identification
 
@@ -67,7 +67,7 @@ Chapter 6 contains scripts that outline the search for BGCs using profile Hidden
 *There are 3 versions of the `cluster_search.py` script, with each later version being an improved version of the previous.*
 
 How to run:
-1. Run Jupyter Notebook `iterative_pyhmmer_build.ipynb` to obtain iterative SwissProt models using pyhmmer[^Larralde&Zeller,2023] and descriptive plots of this process.
+1. Run Jupyter Notebook [iterative_pyhmmer_build.ipynb](Chapter_6_targeted_BGC_identification/iterative_pyhmmer_build.ipynb) to obtain iterative SwissProt models using pyhmmer[^Larralde&Zeller,2023] and descriptive plots of this process.
 2. Download all fungal genomes with annotated assemblies from GenBank using the script `genome_getter.sh`.
 3. BLASTp each genome against a BLAST DB of curated IDT protein sequences with `genome_checker.sh` script.
   *multiFASTAs to generate each IDT BLAST DB are the same as the ones used to generate the curated pHMMs.*
@@ -80,4 +80,4 @@ How to run:
    ```
    python3 cluster_search_v3.py -g 'gbk_dir' -p 'phmm_dir'
    ```
-7. Plots were generated using the Jupyter Notebook `identify_IDT_genomes.ipynb`.
+7. Plots were generated using the Jupyter Notebook [identify_IDT_genomes.ipynb](Chapter_6_targeted_BGC_identification/identify_IDT_genomes.ipynb).
