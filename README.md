@@ -42,7 +42,7 @@ Alternatively, I would recommend using Anaconda Navigator to install the depende
 
 ### Chapter 3 - ELF isolation, sequencing, and taxonomy
 
-This chapter discusses the breadth of the lichen collection surveyed, as well as the ELF isolated from some of these lichens. Several statistical tests (Pearson's Chi-Squared Mean) are performed in an attempt to link the observation of ELF taxa to lichen taxa, form, and macroclimatic factors.
+This chapter discusses the breadth of the lichen collection surveyed, as well as the ELF isolated from some of these lichens. Several statistical tests are performed in an attempt to link the observation of ELF taxa to lichen taxa, form, and macroclimatic factors.
 
 How to run:
 1. [lichen_plots.ipynb](Chapter_3_endolichenic_fungi_isolation/lichen_plots.ipynb) will prepare descriptive plots of the lichen and ELF dataset using both seaborn[^Waskom,2021] and plotly[^PlotlyTechnologiesInc.,2015], by parsing data from the `ELF_master_results.csv` file.
