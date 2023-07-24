@@ -1,3 +1,6 @@
+[![Build Status](https://api.travis-ci.com/jupyter-guide/ten-rules-jupyter.svg?branch=master)](https://www.travis-ci.org/jupyter-guide/ten-rules-jupyter)
+[![GitHub License](https://img.shields.io/github/license/jupyter-guide/ten-rules-jupyter.svg)](https://github.com/sbl-sdsc/mmtf-spark/blob/master/LICENSE)
+
 # PhD scripts and notebooks
 
 This GitHub is the repository for all the figures generated for my PhD thesis which discusses the genetics and secondary metabolism of endolichenic fungi (ELF) from New Zealand.
@@ -45,8 +48,8 @@ How to run:
 
 | Notebook | Nbviewer | Binder |
 | --- | --- | --- |
-| [lichen_plots.ipynb](Chapter_3_endolichenic_fungi_isolation/lichen_plots.ipynb) | [lichen_plots.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_3_endolichenic_fungi_isolation/lichen_plots.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_3_endolichenic_fungi_isolation%2Flichen_plots.ipynb) |
-| [statistical_tests.ipynb](Chapter_3_endolichenic_fungi_isolation/statistical_tests.ipynb) | [statistical_tests.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_3_endolichenic_fungi_isolation/statistical_tests.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_3_endolichenic_fungi_isolation%2Fstatistical_tests.ipynb) |
+| [lichen_plots.ipynb](Chapter_3_endolichenic_fungi_isolation/lichen_plots.ipynb) | [lichen_plots.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_3_endolichenic_fungi_isolation/lichen_plots.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_3_endolichenic_fungi_isolation%2Flichen_plots.ipynb) |
+| [statistical_tests.ipynb](Chapter_3_endolichenic_fungi_isolation/statistical_tests.ipynb) | [statistical_tests.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_3_endolichenic_fungi_isolation/statistical_tests.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_3_endolichenic_fungi_isolation%2Fstatistical_tests.ipynb) |
  
 ### Chapter 4 - ELF assembly metrics
 
@@ -59,9 +62,9 @@ How to run:
 
 | Notebook | Nbviewer | Binder |
 | --- | --- | --- |
-| [pipeline_tests.ipynb](Chapter_4_fungiflow_workflow/pipeline_tests.ipynb) | [pipeline_tests.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_4_fungiflow_workflow/pipeline_tests.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_4_fungiflow_workflow%2Fpipeline_tests.ipynb) |
-| [ELF_data.ipynb](Chapter_4_fungiflow_workflow/ELF_data.ipynb) | [ELF_data.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_4_fungiflow_workflow/ELF_data.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_4_fungiflow_workflow%2FELF_data.ipynb) |
-| [comparative_phylogenomics.ipynb](Chapter_4_fungiflow_workflow/comparative_phylogenomics/comparative_phylogenomics.ipynb) | [comparative_phylogenomics.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_4_fungiflow_workflow/comparative_phylogenomics/comparative_phylogenomics.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_4_fungiflow_workflow%2Fcomparative_phylogenomics%2Fcomparative_phylogenomics.ipynb) |
+| [pipeline_tests.ipynb](Chapter_4_fungiflow_workflow/pipeline_tests.ipynb) | [pipeline_tests.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_4_fungiflow_workflow/pipeline_tests.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_4_fungiflow_workflow%2Fpipeline_tests.ipynb) |
+| [ELF_data.ipynb](Chapter_4_fungiflow_workflow/ELF_data.ipynb) | [ELF_data.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_4_fungiflow_workflow/ELF_data.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_4_fungiflow_workflow%2FELF_data.ipynb) |
+| [comparative_phylogenomics.ipynb](Chapter_4_fungiflow_workflow/comparative_phylogenomics/comparative_phylogenomics.ipynb) | [comparative_phylogenomics.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_4_fungiflow_workflow/comparative_phylogenomics/comparative_phylogenomics.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_4_fungiflow_workflow%2Fcomparative_phylogenomics%2Fcomparative_phylogenomics.ipynb) |
 
 [^Palmeretal.,2021]: Palmer, J., & Stajich, J. (2021). Funannotate v1. 8.3: eukaryotic genome annotation (Version 1.8. 3). Zenodo. doi, 10. 
 
@@ -77,9 +80,9 @@ How to run:
 
 | Notebook | Nbviewer | Binder |
 | --- | --- | --- |
-| [BGC_data_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/BGC_data_plots.ipynb) | [BGC_data_plots.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_5_BGCs_from_endolichenic_fungi/BGC_data_plots.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_5_BGCs_from_endolichenic_fungi%2FBGC_data_plots.ipynb) |
-| [cosine_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/cosine_analysis_scripts/cosine_plots.ipynb) | [cosine_plots.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_5_BGCs_from_endolichenic_fungi/cosine_analysis_scripts/cosine_plots.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_5_BGCs_from_endolichenic_fungi%2Fcosine_analysis_scripts%2Fcosine_plots.ipynb) |
-| [bioassay_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/bioassay_plots.ipynb) | [bioassay_plots.ipynb]([https://nbviewer.org/))](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_5_BGCs_from_endolichenic_fungi/bioassay_plots.ipynb)| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2) F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_5_BGCs_from_endolichenic_fungi%2Fbioassay_plots.ipynb) |
+| [BGC_data_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/BGC_data_plots.ipynb) | [BGC_data_plots.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_5_BGCs_from_endolichenic_fungi/BGC_data_plots.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_5_BGCs_from_endolichenic_fungi%2FBGC_data_plots.ipynb) |
+| [cosine_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/cosine_analysis_scripts/cosine_plots.ipynb) | [cosine_plots.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_5_BGCs_from_endolichenic_fungi/cosine_analysis_scripts/cosine_plots.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_5_BGCs_from_endolichenic_fungi%2Fcosine_analysis_scripts%2Fcosine_plots.ipynb) |
+| [bioassay_plots.ipynb](Chapter_5_BGCs_from_endolichenic_fungi/bioassay_plots.ipynb) | [bioassay_plots.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_5_BGCs_from_endolichenic_fungi/bioassay_plots.ipynb)| [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_5_BGCs_from_endolichenic_fungi%2Fbioassay_plots.ipynb) |
 
 ### Chapter 6 - targeted BGC identification
 
@@ -105,4 +108,4 @@ How to run:
 
 | Notebook | Nbviewer | Binder |
 | --- | --- | --- |
-| [iterative_pyhmmer_build.ipynb](Chapter_6_targeted_BGC_identification/iterative_pyhmmer_build.ipynb) | [iterative_pyhmmer_build.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_6_targeted_BGC_identification/iterative_pyhmmer_build.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fkellystyles%2FPhD_thesis_scripts%2Fblob%2Fmain%2FChapter_6_targeted_BGC_identification%2Fiterative_pyhmmer_build.ipynb) |
+| [iterative_pyhmmer_build.ipynb](Chapter_6_targeted_BGC_identification/iterative_pyhmmer_build.ipynb) | [iterative_pyhmmer_build.ipynb](https://nbviewer.org/github/kellystyles/PhD_thesis_scripts/blob/main/Chapter_6_targeted_BGC_identification/iterative_pyhmmer_build.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kellystyles/PhD_thesis_scripts/HEAD?labpath=Chapter_6_targeted_BGC_identification%2Fiterative_pyhmmer_build.ipynb) |
