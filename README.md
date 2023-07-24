@@ -6,6 +6,8 @@
 This GitHub is the repository for all the figures generated for my PhD thesis which discusses the genetics and secondary metabolism of endolichenic fungi (ELF) from New Zealand.
 Each chapter in my thesis has its own sub-directory, within which is contained one to three Jupyter Notebooks that will perform the necessary data analyses and generate plots from the data.
 
+Most of the data in this repository is parsed from modified output of the [Fungiflow pipeline](https://github.com/kellystyles/fungiflow) that was used for assembly and BGC analysis of ELF genomes.
+
 ## Dependencies
 
 The Notebooks in this repository use Python 3.9. Aside from standard Python libraries, the required dependencies used are Python packages listed below:
